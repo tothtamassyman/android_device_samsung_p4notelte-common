@@ -15,8 +15,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-ifneq ($(filter i925,$(TARGET_DEVICE)),)
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
