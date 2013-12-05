@@ -21,6 +21,15 @@
 
 LOCAL_PATH := device/samsung/p4notelte-common
 
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
+TARGET_KERNEL_CONFIG := cyanogenmod_p4notelte_defconfig
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
+BOARD_RECOVERY_SWIPE := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := $(LOCAL_PATH)/bluetooth/vnd_p4notelte.txt
