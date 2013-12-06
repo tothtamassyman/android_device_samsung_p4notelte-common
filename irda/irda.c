@@ -22,7 +22,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <hardware/irda.h>
+#include <irda.h>
 #include <errno.h>
 
 #define   IRDA_DEBUG   1
