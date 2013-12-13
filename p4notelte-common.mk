@@ -58,7 +58,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.qc_lte_network_modes=true
+    ro.config.qc_lte_network_modes=true \
     ro.telephony.ril_class=SamsungQualcommRIL \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
 
