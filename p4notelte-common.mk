@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.smdk4x12
 
- IRDA
+# IRDA
 PRODUCT_PACKAGES += \
     irda.exynos4
 
